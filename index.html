@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gowkit - Te ayudamos a comunicar tus objetivos.</title>
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700" rel="stylesheet"> 
+    <link rel="stylesheet" href="./fontAwesome/css/font-awesome.min.css">
+
+    <link rel="shortcut icon" href="./img/favicon.svg" type="image/x-icon">
+
+</head>
+<body>
+    <!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v3.2'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_ES/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="759464127766266"
+  theme_color="#ffbe00"
+  logged_in_greeting="¡Hola, bienvenido a Gowkit! ¿Como puedo ayudarte hoy?"
+  logged_out_greeting="¡Hola, bienvenido a Gowkit! ¿Como puedo ayudarte hoy?">
+</div>
+    <header>
+        <div class="container">
+            <div class="cont">
+            <img src="./img/Logo.svg" alt="Gowkit" class="logo">
+            <ul>
+                
+                <li><a href="https://www.behance.net/gowkit">Portafolio</a></li>
+                <li><a href="https://www.facebook.com/GowkitUP/reviews/">Testimonios</a></li>
+            </ul>
+        </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="cont">
+                    <div class="sub-cont">
+                            <div class="txt">
+                                    <h1 class="title">Impulsa tu Startup transmitiendo el objetivo.</h1>
+                                    <p class="info">Gowkit te ayudará a comunicar de una forma visual el objetivo de tu proyecto.</p>
+                                </div>
+                                <div class="btns">
+                                    <a href="https://www.facebook.com/commerce/products/1946383102126736/?rid=759464127766266&rt=6" class="important">Comenzar</a>
+                                    <a href="https://m.me/GowkitUP" class="moveleft">Quiero asesorarme →</a>
+                                </div>
+                    </div>
+                    <div class="kit">
+                            <img src="./img/kitIlus.svg"  alt="Kit de diseño">
+                        </div>
+            </div>
+            
+        </div>
+        
+    </section>
+    <footer>
+        <div class="redesSociales">
+            <div class="btns">
+                <a href="https://www.facebook.com/GowkitUP"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="https://www.instagram.com/gowkit/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

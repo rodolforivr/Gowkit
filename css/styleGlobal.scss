@@ -1,0 +1,26 @@
+// Colors
+$blueNormal: #007fff;
+$blueHover: #0272CE;
+$orangeNormal: #ffbe00;
+$orangeHover:#ff9000;
+$black: #191928;
+$white: #ffffff;
+
+
+* {
+    margin:0;
+    padding:0;
+    border:0;
+
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: url('../img/bg.svg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+@import 'index';
+@import 'responsive';
