@@ -43,12 +43,19 @@
                 //************
                 // Aquí está el bug de la imagen
                 .kit {
+                    position: relative !important;
+                    width:100%;
+                    height: 400px;
+                    bottom: none;
+                    right: none;
+                    
                     
                     img {
                         
-                        min-width: 80% !important;
-                        position: static;
-                        visibility: visible;
+                        min-width: 87%;
+                        
+                        
+                        
                         vertical-align: top;
                         
                     }
