@@ -66,7 +66,7 @@ header {
                    a {
                        text-decoration: none;
                        font-weight: 700;
-                       font-size: 14px;
+                       font-size: 0.875em;
                        display:inline-block;
                        margin-right: 40px;
                        color: $blueNormal;
@@ -74,7 +74,7 @@ header {
                    }
                    .moveleft {
                     &:hover {
-                        transition: all ease 0.1s;
+                        transition: all ease 0.05s;
                         padding-left:5px;
 
                        }

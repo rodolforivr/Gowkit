@@ -37,30 +37,35 @@
                 .sub-cont {
                     width: 90%;
                     padding-top: 100px;
+                    .btns {
+                        .moveleft {
+                            &:hover {
+                                padding-left:0;
+                                border-bottom: 2px solid $blueHover;
+                            }
+                        }
+                    }
                 }
 
 
                 //************
-                // Aquí está el bug de la imagen
+                // Aquí estába el bug de la imagen
                 .kit {
                     position: relative !important;
                     width:100%;
                     height: 400px;
-                    bottom: none;
-                    right: none;
+                    top: 20px !important;
+                    left: 20px !important;
                     
                     
                     img {
                         
                         min-width: 87%;
-                        
-                        
-                        
                         vertical-align: top;
                         
                     }
                 }
-                // Aquí está el bug de la imagen
+                // Aquí estába el bug de la imagen
                 //*************
             }
         }
@@ -73,3 +78,57 @@
         }
     }
 }
+
+@media screen and (max-width: 484px) {
+    body {
+        font-size: 12px;
+        header {
+            .container {
+                .cont {
+                    flex-direction: column;
+                    
+                    .logo {
+                        margin-bottom: 20px;
+                    }
+                    ul {
+                        li {
+                            a {
+                                margin: 10px 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main {
+            .container {
+                
+                .cont {
+                    height: 500px;
+                    .sub-cont {
+                        padding-top: 40px;
+                        width: 100%;
+                        .btns {
+                            a {
+                                margin: 10px 20px;
+                            }
+                        }
+                    }
+                    .kit {
+                        height: 400px;
+                        img {
+
+                        }
+                    }
+                }
+            }
+        }
+
+        footer {
+            margin: 20px 50px;
+        }
+    
+    }
+ 
+}
+
